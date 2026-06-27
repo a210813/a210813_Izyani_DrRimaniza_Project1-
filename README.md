@@ -75,4 +75,28 @@ app/src/main/java/com/example/a210813_izyani_drrimaniza_project1/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/a210813/a210813_Izyani_Project1.git
+git clone https://github.com/a210813/a210813_Izyani_DrRimaniza_Project1.git
+
+## 📅 Submission Details
+
+| Item | Info |
+|------|------|
+| **Project** | Project 1 |
+| **Due Date** | (Insert due date) |
+| **SDG** | SDG 1: No Poverty |
+| **GitHub** | [[https://github.com/a210813/a210813_Izyani_Project](https://github.com/a210813/a210813_Izyani_DrRimaniza_Project)1](https://github.com/a210813/a210813_Izyani_DrRimaniza_Project1) |
+| **VSR Video** | *(YouTube link will be added)* |
+| **e-Portfolio** | [https://a210813.github.io](https://a210813.github.io) |
+
+## 🙏 Acknowledgements
+
+- Dr. Rimaniza for guidance and support
+- JetBrains for Kotlin and Android Studio
+
+## 📄 License
+
+This project is for educational purposes as part of the Mobile Programming course (TK2323/TM2213).
+
+---
+
+*Created with ❤️ for Project 1 - Mobile Programming*
