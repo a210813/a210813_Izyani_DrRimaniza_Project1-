@@ -76,5 +76,3 @@ app/src/main/java/com/example/a210813_izyani_drrimaniza_project1/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/a210813/a210813_Izyani_Project1.git
-
-## 📂 Project Structure
