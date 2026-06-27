@@ -20,7 +20,7 @@
 - 🎨 **Dark/Light Theme** - Toggle between dark and light mode
 
 ### Technical Features
-- **5 Screens** - Login, Sign Up, Home, Profile, Details
+- **Multiple Screens** - Login, Sign Up, Home, Search, Profile, Details, All Jobs, Applied Jobs, Messages
 - **Navigation** - Jetpack Navigation Compose
 - **State Management** - SharedViewModel with StateFlow
 
@@ -40,28 +40,29 @@
 
 ## 📂 Project Structure
 
-app/src/main/java/com/example/a210813_izyani_project1/
+app/src/main/java/com/example/a210813_izyani_drrimaniza_project1/
 ├── MainActivity.kt # Main entry point
 ├── data/
-│ ├── AppDatabase.kt # Room Database
-│ ├── JobDao.kt # Room DAO for jobs
-│ ├── UserDao.kt # Room DAO for users
-│ ├── UserEntity.kt # Room entity for users
-│ └── UserRepository.kt # Repository for user data
+│ ├── AppliedJob.kt # Applied job data model
+│ ├── ChatModels.kt # Chat message models
+│ └── UserProfile.kt # User profile data model
 ├── screens/ # All Compose Screens
-│ ├── HomeScreen.kt
-│ ├── LoginScreen.kt
-│ ├── SignUpScreen.kt
-│ ├── ProfileScreen.kt
+│ ├── AllJobsScreen.kt
+│ ├── AppliedJobsScreen.kt
+│ ├── AppliedPlaceholder.kt
 │ ├── DetailsScreen.kt
-│ ├── SharedViewModel.kt # Shared ViewModel with StateFlow
-│ └── SharedViewModelFactory.kt
+│ ├── HomeScreen.kt
+│ ├── MessagesPlaceholder.kt
+│ ├── ProfileScreen.kt
+│ ├── SearchScreen.kt
+│ └── SharedViewModel.kt # Shared ViewModel with StateFlow
 ├── ui/theme/ # Theme Configuration
 │ ├── Color.kt
 │ ├── Theme.kt
 │ └── Type.kt
 └── utils/
 └── (Helper classes)
+
 
 ## 🔧 Setup Instructions
 
@@ -74,30 +75,6 @@ app/src/main/java/com/example/a210813_izyani_project1/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2.git
+git clone https://github.com/a210813/a210813_Izyani_Project1.git
 
-## 📅 Submission Details
-
-| Item | Info |
-|------|------|
-| **Project** | Project 2 |
-| **Due Date** | 14 June 2026 |
-| **SDG** | SDG 1: No Poverty |
-| **GitHub** | [https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2](https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2) |
-| **VSR Video** | *https://youtu.be/V3Hr41Rf6zI* |
-| **e-Portfolio** | [https://a210813.github.io](https://a210813.github.io) |
-
-## 🙏 Acknowledgements
-
-- Dr. Rimaniza for guidance and support
-- Firebase for cloud services
-- Apify for JobStreet API access
-- JetBrains for Kotlin and Android Studio
-
-## 📄 License
-
-This project is for educational purposes as part of the Mobile Programming course (TK2323/TM2213).
-
----
-
-*Created with ❤️ for Project 2 - Mobile Programming*
+## 📂 Project Structure
